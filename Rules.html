@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Rules</title>
+    <link rel="stylesheet" type="text/css" href="css/Rules.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#play').click(function(){
+                window.location='Play.html';
+            }); // end click
+            $('#main').click(function(){
+                window.location='About.html';
+            }); // end click
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-uppercase">How to Play Stone, Paper, Scissors, Lizard, Spock:</h1>
+        <ul>
+            <li>Scissors cuts paper.</li>
+            <li>Paper covers stone.</li>
+            <li>Stone crushes lizard.</li>
+            <li>Lizard poisons Spock.</li>
+            <li>Spock smashes scissors.</li>
+            <li>Scissors decapitates lizard.</li>
+            <li>Lizard eats paper.</li>
+            <li>Paper disproves Spock.</li>
+            <li>Spock vaporizes stone.</li>
+            <li>Stone crushes scissors.</li>
+        </ul>
+        <button class="btn btn-primary" id="play">Play</button>
+        <button class="btn btn-primary" id="main">Main menu</button>
+    </div>
+</body>
+</html>

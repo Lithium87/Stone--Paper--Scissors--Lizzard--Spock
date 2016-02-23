@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/About.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#play').click(function(){
+                window.location='Play.html';
+            }); // end click
+            $('#rules').click(function(){
+                window.location='Rules.html';
+            }); // end click
+            $('#quit').click(function(){
+                window.location='https://www.google.com/';
+            }); // end click
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <p>Stone, Paper, Scissors, Lizard, Spock </p>
+        <button id="play">Play the game</button>
+        <button id="rules">How to play</button>
+        <button id="quit">Quit</button>
+    </div>
+</body>
+</html>
